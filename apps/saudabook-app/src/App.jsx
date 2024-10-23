@@ -1,13 +1,14 @@
-import './App.css'
-import Trade from '@trade'
+import './App.css';
+import Trade from '../../../packages/trade-app';
 
 function App() {
   return (
     <div>
-    <h1>Saudabook Application</h1>
-    <Trade parentApp={'saudabook'}/>
+       <h1>Yeah!! saudabook</h1>
+       <Trade parentApp={'saudabook!!'}/>
     </div>
   )
 }
+
 
 export default App

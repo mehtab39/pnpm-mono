@@ -1,11 +1,12 @@
 {
   "name": "trade-app",
   "version": "1.0.0",
-  "private": true,
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "index.tsx",
+  "private": "true",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "keywords": [],
   "author": "",

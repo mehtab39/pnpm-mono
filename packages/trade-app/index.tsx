@@ -1,8 +1,6 @@
-import React from "react";
-
 const Trade = ({parentApp}) => {
    return <div>
-       Here is a trade app!!. 
+       Here is a trade app!!.  Mehtab!
       {parentApp}
       </div>
 }
