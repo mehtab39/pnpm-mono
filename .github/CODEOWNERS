@@ -1,0 +1,7 @@
+# Common package
+/packages/                @farmart/platform-frontend-team
+/apps/farmart-web/        @farmart/farmart-web-team
+/apps/saudabook-app/      @farmart/saudabook-team
+
+/packages/trade-app/      @farmart/farmart-web-team @farmart/saudabook-team
+
