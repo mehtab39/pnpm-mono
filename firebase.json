@@ -1,10 +1,6 @@
 {
   "hosting": {
     "public": "apps/farmart-web/dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }

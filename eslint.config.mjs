@@ -7,13 +7,20 @@ export default [
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
   },
-  {   
-     ignores: ["apps/**/dist/", "apps/**/node_modules/","apps/**/public/", "packages/**/node_modules/", "packages/**/dist/", "packages/**/public/", ], 
+  {
+    ignores: [
+      "apps/**/dist/",
+      "apps/**/node_modules/",
+      "apps/**/public/",
+      "packages/**/node_modules/",
+      "packages/**/dist/",
+      "packages/**/public/",
+    ],
   },
   {
     languageOptions: {
-      globals: globals.browser
-    }
+      globals: globals.browser,
+    },
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
@@ -22,7 +29,7 @@ export default [
     rules: {
       "no-unused-vars": "error",
       "no-undef": "error",
-      "react/react-in-jsx-scope": "off"
-    }
-  }
+      "react/react-in-jsx-scope": "off",
+    },
+  },
 ];

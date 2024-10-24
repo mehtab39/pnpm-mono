@@ -1,9 +1,10 @@
-const Trade = ({parentApp}) => {
-   return <div>
-       Here is a trade app!!.  Mehtab!
+const Trade = ({ parentApp }) => {
+  return (
+    <div>
+      Here is a trade addpp!!. Mehtab!
       {parentApp}
-      </div>
-}
-
+    </div>
+  );
+};
 
 export default Trade;
