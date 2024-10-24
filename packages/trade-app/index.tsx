@@ -1,7 +1,7 @@
 const Trade = ({ parentApp }) => {
   return (
     <div>
-      Here is a trade addpp!!. Mehtab!
+      Here is a trade app!
       {parentApp}
     </div>
   );
