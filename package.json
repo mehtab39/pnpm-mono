@@ -6,12 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:farmart-web": "pnpm --filter farmart-web dev",
-    "dev:saudabook": "pnpm --filter saudabook-app dev"
+    "dev:saudabook": "pnpm --filter saudabook-app dev",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-alias": "^5.1.1"
+    "@eslint/js": "^9.13.0",
+    "@rollup/plugin-alias": "^5.1.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.11.0"
   }
 }
